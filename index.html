@@ -1,4 +1,8 @@
+---
+title: AUS Website
+---
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -17,21 +21,25 @@
 <!-- ================================================================
   INTRO SPLASH — 50 Years of Excellence (4 s auto-dismiss)
 ================================================================ -->
+
 <div id="intro-splash" aria-hidden="true">
   <div class="intro-bg-layer"></div>
 
   <!-- Animated particles -->
+
   <div class="intro-particles">
     <span></span><span></span><span></span><span></span>
     <span></span><span></span><span></span><span></span>
   </div>
 
   <!-- Shield / Logo emblem -->
+
   <div class="intro-emblem">
     <img src="images/aus-shield.png" alt="AUS Shield" onerror="this.style.display='none'">
   </div>
 
   <!-- Main text block -->
+
   <div class="intro-text">
     <p class="intro-since">Est. 1975 · Dubai, UAE</p>
     <div class="intro-number-row">
@@ -40,17 +48,20 @@
     </div>
     <h1 class="intro-headline">of <em>Excellence</em></h1>
     <div class="intro-divider"></div>
-    <p class="intro-school-name">Arab Unity School</p>
+    <p class="intro-school-name">Arab Unity School SHIT</p>
     <p class="intro-tagline">Best Value British Education · Al Mizhar, Dubai</p>
   </div>
 
   <!-- Progress bar at bottom -->
+
   <div class="intro-progress-track">
     <div class="intro-progress-bar" id="introProgressBar"></div>
   </div>
 
   <!-- Skip button -->
+
   <button class="intro-skip" id="introSkip" onclick="dismissIntro()">Skip ›</button>
+
 </div>
 
 <style>
@@ -326,9 +337,11 @@ function dismissIntro() {
 <!-- ================================================================
   HERO SECTION — Full-screen cinematic slideshow
 ================================================================ -->
+
 <section class="hero-main" id="hero">
 
   <!-- Slideshow Photos -->
+
   <div class="hero-slides">
     <div class="hero-slide active"><img src="images/aus-students-laptop.jpg?v=33" alt="Students on laptop" style="object-position:center 35%"></div>
     <div class="hero-slide"><img src="images/aus-lab1.jpg?v=33" alt="Science laboratory" style="object-position:center 40%"></div>
@@ -337,62 +350,68 @@ function dismissIntro() {
   </div>
 
   <!-- Overlay gradient -->
+
   <div class="hero-overlay"></div>
 
   <!-- Left accent bar -->
+
   <div class="hero-accent-bar"></div>
 
   <!-- Main content -->
+
   <div class="hero-content">
 
-    <!-- Eyebrow label -->
-    <div class="hero-eyebrow">
-      <span class="hero-eyebrow-line"></span>
-      <span data-i18n="hero.eyebrow">Est. 1975 · Dubai, UAE · British Curriculum</span>
-    </div>
+```
+<!-- Eyebrow label -->
+<div class="hero-eyebrow">
+  <span class="hero-eyebrow-line"></span>
+  <span data-i18n="hero.eyebrow">Est. 1975 · Dubai, UAE · British Curriculum</span>
+</div>
 
-    <!-- Main headline — Sevenoaks mixed-weight style -->
-    <h1 class="hero-title">
-      <span class="ht-light" data-i18n="hero.h1.light">Shaping</span>
-      <span class="ht-bold" data-i18n="hero.h1.bold">Extraordinary</span>
-      <span class="ht-italic" data-i18n="hero.h1.italic">Young Minds</span>
-    </h1>
+<!-- Main headline — Sevenoaks mixed-weight style -->
+<h1 class="hero-title">
+  <span class="ht-light" data-i18n="hero.h1.light">Shaping</span>
+  <span class="ht-bold" data-i18n="hero.h1.bold">Extraordinary</span>
+  <span class="ht-italic" data-i18n="hero.h1.italic">Young Minds</span>
+</h1>
 
-    <!-- Subheading -->
-    <p class="hero-sub" data-i18n="hero.sub">
-      Best value British education in the heart of Dubai —<br class="d-none-sm">
-      from Foundation Stage to Sixth Form.
-    </p>
+<!-- Subheading -->
+<p class="hero-sub" data-i18n="hero.sub">
+  Best value British education in the heart of Dubai —<br class="d-none-sm">
+  from Foundation Stage to Sixth Form.
+</p>
 
-    <!-- CTA Buttons -->
-    <div class="hero-actions">
-      <a href="admissions.html" class="hbtn hbtn-gold">
-        <span data-i18n="hero.btn.apply">Apply for Admission</span>
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
-      <a href="virtual-tour.html" class="hbtn hbtn-outline">
-        <span data-i18n="hero.btn.explore">Explore the School</span>
-      </a>
-    </div>
+<!-- CTA Buttons -->
+<div class="hero-actions">
+  <a href="admissions.html" class="hbtn hbtn-gold">
+    <span data-i18n="hero.btn.apply">Apply for Admission</span>
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+  <a href="virtual-tour.html" class="hbtn hbtn-outline">
+    <span data-i18n="hero.btn.explore">Explore the School</span>
+  </a>
+</div>
 
-    <!-- Tuition Fee Badge -->
-    <div class="hero-tuition">
-      <div class="tuition-icon">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-      </div>
-      <div class="tuition-text">
-        <span class="tuition-label" data-i18n="hero.tuition.lbl">Annual Tuition Fees</span>
-        <span class="tuition-range">AED 8,462 – AED 13,122</span>
-      </div>
-      <a href="admissions.html#fees" class="tuition-link">
-        <span data-i18n="hero.tuition.link">View Full Fee Schedule</span>
-        <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
-    </div>
+<!-- Tuition Fee Badge -->
+<div class="hero-tuition">
+  <div class="tuition-icon">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+  </div>
+  <div class="tuition-text">
+    <span class="tuition-label" data-i18n="hero.tuition.lbl">Annual Tuition Fees</span>
+    <span class="tuition-range">AED 8,462 – AED 13,122</span>
+  </div>
+  <a href="admissions.html#fees" class="tuition-link">
+    <span data-i18n="hero.tuition.link">View Full Fee Schedule</span>
+    <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</div>
+```
 
   </div>
 
   <!-- Slide navigation dots -->
+
   <div class="hero-dots">
     <button class="hdot active" onclick="heroGo(0)" aria-label="Slide 1"></button>
     <button class="hdot" onclick="heroGo(1)" aria-label="Slide 2"></button>
@@ -401,6 +420,7 @@ function dismissIntro() {
   </div>
 
   <!-- Stats bottom bar -->
+
   <div class="hero-statsbar">
     <div class="hstat">
       <span class="hstat-num">4,000+</span>
@@ -425,16 +445,17 @@ function dismissIntro() {
   </div>
 
   <!-- Scroll cue -->
+
   <div class="hero-scroll-cue">
     <span data-i18n="hero.scroll">Scroll</span>
     <div class="scroll-line"></div>
   </div>
 </section>
 
-
 <!-- ================================================================
   TICKER — animated facts strip
 ================================================================ -->
+
 <div class="ticker-wrap">
   <div class="ticker-track">
     <span class="tick-item" data-i18n="tick.1">50 Years of Excellence</span>
@@ -467,10 +488,10 @@ function dismissIntro() {
   </div>
 </div>
 
-
 <!-- ================================================================
   DIRECTOR STATEMENT — dark band
 ================================================================ -->
+
 <section class="section-statement">
   <div class="statement-inner">
     <div class="statement-mark">"</div>
@@ -484,10 +505,10 @@ function dismissIntro() {
   </div>
 </section>
 
-
 <!-- ================================================================
   DIRECTOR MESSAGE — with photo
 ================================================================ -->
+
 <section class="section-director-msg">
   <div class="container">
     <h2 class="section-h2" style="text-align:center;margin-bottom:48px" data-i18n="dir.h2">A Message from Ms. Arwa A. Taher</h2>
@@ -515,115 +536,119 @@ function dismissIntro() {
   </div>
 </section>
 
-
 <!-- ================================================================
   THREE PILLARS — split layout
 ================================================================ -->
+
 <section class="section-pillars" id="why-aus">
   <div class="pillars-grid">
 
-    <!-- Left: text -->
-    <div class="pillars-text">
-      <span class="eyebrow-label" data-i18n="pillars.eyebrow">Why Choose AUS</span>
-      <h2 class="section-h2" data-i18n="pillars.h2">Three Pillars of an<br><em>AUS Education</em></h2>
-      <p class="section-lead" data-i18n="pillars.lead">Arab Unity School stands for three things: best value for money, a community where every child is known by name, and academic results that open doors worldwide.</p>
+```
+<!-- Left: text -->
+<div class="pillars-text">
+  <span class="eyebrow-label" data-i18n="pillars.eyebrow">Why Choose AUS</span>
+  <h2 class="section-h2" data-i18n="pillars.h2">Three Pillars of an<br><em>AUS Education</em></h2>
+  <p class="section-lead" data-i18n="pillars.lead">Arab Unity School stands for three things: best value for money, a community where every child is known by name, and academic results that open doors worldwide.</p>
 
-      <div class="pillar-list">
-        <div class="pillar-item" data-num="01">
-          <div class="pi-head">
-            <span class="pi-num">01</span>
-            <h3 class="pi-title" data-i18n="pillars.p1.title">Best Value for Money</h3>
-          </div>
-          <p class="pi-desc" data-i18n="pillars.p1.desc">Premium British education from AED&nbsp;8,462 to AED&nbsp;13,122/year — among the most competitive fees in Dubai. Outstanding quality at the best value.</p>
-        </div>
-        <div class="pillar-item" data-num="02">
-          <div class="pi-head">
-            <span class="pi-num">02</span>
-            <h3 class="pi-title" data-i18n="pillars.p2.title">A Community That Truly Cares</h3>
-          </div>
-          <p class="pi-desc" data-i18n="pillars.p2.desc">KHDA 2023–2024: <strong>Very Good</strong> for Student Wellbeing. Over 200,000 proud alumni across the globe — our legacy of excellence continues.</p>
-        </div>
-        <div class="pillar-item" data-num="03">
-          <div class="pi-head">
-            <span class="pi-num">03</span>
-            <h3 class="pi-title" data-i18n="pillars.p3.title">Results That Open Doors</h3>
-          </div>
-          <p class="pi-desc" data-i18n="pillars.p3.desc">Cambridge IGCSE &amp; A-Levels. Post-16 provision rated <strong>Very Good</strong> by KHDA 2023–2024. Graduates accepted to Manchester, Durham &amp; Toronto.</p>
-        </div>
+  <div class="pillar-list">
+    <div class="pillar-item" data-num="01">
+      <div class="pi-head">
+        <span class="pi-num">01</span>
+        <h3 class="pi-title" data-i18n="pillars.p1.title">Best Value for Money</h3>
       </div>
-
-      <a href="about.html" class="text-link"><span data-i18n="pillars.link">Discover Our Full Story</span> <span>→</span></a>
+      <p class="pi-desc" data-i18n="pillars.p1.desc">Premium British education from AED&nbsp;8,462 to AED&nbsp;13,122/year — among the most competitive fees in Dubai. Outstanding quality at the best value.</p>
     </div>
-
-    <!-- Right: stacked photos -->
-    <div class="pillars-photos">
-      <div class="pp-top">
-        <img src="images/aus-lab1.jpg" alt="Science lab at Arab Unity School" loading="lazy">
-        <div class="pp-cap" data-i18n="pillars.cap1">Cambridge Pathway · IGCSE & A-Levels</div>
+    <div class="pillar-item" data-num="02">
+      <div class="pi-head">
+        <span class="pi-num">02</span>
+        <h3 class="pi-title" data-i18n="pillars.p2.title">A Community That Truly Cares</h3>
       </div>
-      <div class="pp-bottom">
-        <img src="images/aus-welcome.jpg" alt="Happy students at Arab Unity School" loading="lazy">
-        <div class="pp-cap" data-i18n="pillars.cap2">KHDA High Wellbeing Rating</div>
-      </div>
+      <p class="pi-desc" data-i18n="pillars.p2.desc">KHDA 2023–2024: <strong>Very Good</strong> for Student Wellbeing. Over 200,000 proud alumni across the globe — our legacy of excellence continues.</p>
     </div>
+    <div class="pillar-item" data-num="03">
+      <div class="pi-head">
+        <span class="pi-num">03</span>
+        <h3 class="pi-title" data-i18n="pillars.p3.title">Results That Open Doors</h3>
+      </div>
+      <p class="pi-desc" data-i18n="pillars.p3.desc">Cambridge IGCSE &amp; A-Levels. Post-16 provision rated <strong>Very Good</strong> by KHDA 2023–2024. Graduates accepted to Manchester, Durham &amp; Toronto.</p>
+    </div>
+  </div>
+
+  <a href="about.html" class="text-link"><span data-i18n="pillars.link">Discover Our Full Story</span> <span>→</span></a>
+</div>
+
+<!-- Right: stacked photos -->
+<div class="pillars-photos">
+  <div class="pp-top">
+    <img src="images/aus-lab1.jpg" alt="Science lab at Arab Unity School" loading="lazy">
+    <div class="pp-cap" data-i18n="pillars.cap1">Cambridge Pathway · IGCSE & A-Levels</div>
+  </div>
+  <div class="pp-bottom">
+    <img src="images/aus-welcome.jpg" alt="Happy students at Arab Unity School" loading="lazy">
+    <div class="pp-cap" data-i18n="pillars.cap2">KHDA High Wellbeing Rating</div>
+  </div>
+</div>
+```
 
   </div>
 </section>
-
 
 <!-- ================================================================
   IMPACT NUMBERS — Kent College horizontal grid
 ================================================================ -->
+
 <section class="section-numbers" id="impact">
   <div class="numbers-inner">
 
-    <div class="numbers-intro">
-      <span class="eyebrow-label light" data-i18n="nums.eyebrow">By the Numbers</span>
-      <h2 class="section-h2 white" data-i18n="nums.h2">Fifty Years of<br><em>Measurable Impact</em></h2>
-      <p class="section-lead light" data-i18n="nums.lead">Founded by Mr &amp; Mrs Taher with one unshakeable belief: that every family in Dubai deserves access to a quality British education.</p>
-      <a href="about.html" class="text-link gold"><span data-i18n="nums.link">Read Our Full Story</span> <span>→</span></a>
-    </div>
+```
+<div class="numbers-intro">
+  <span class="eyebrow-label light" data-i18n="nums.eyebrow">By the Numbers</span>
+  <h2 class="section-h2 white" data-i18n="nums.h2">Fifty Years of<br><em>Measurable Impact</em></h2>
+  <p class="section-lead light" data-i18n="nums.lead">Founded by Mr &amp; Mrs Taher with one unshakeable belief: that every family in Dubai deserves access to a quality British education.</p>
+  <a href="about.html" class="text-link gold"><span data-i18n="nums.link">Read Our Full Story</span> <span>→</span></a>
+</div>
 
-    <div class="numbers-grid">
-      <div class="numb-item">
-        <span class="ni-big" data-target="4000">4,000<sup>+</sup></span>
-        <span class="ni-lbl" data-i18n="nums.n1">Students Enrolled</span>
-        <span class="ni-bar" style="width:85%"></span>
-      </div>
-      <div class="numb-item">
-        <span class="ni-big">50</span>
-        <span class="ni-lbl" data-i18n="nums.n2">Years of Excellence</span>
-        <span class="ni-bar" style="width:100%"></span>
-      </div>
-      <div class="numb-item">
-        <span class="ni-big">200,000<sup>+</sup></span>
-        <span class="ni-lbl" data-i18n="nums.n3">Alumni Worldwide</span>
-        <span class="ni-bar" style="width:100%"></span>
-      </div>
-      <div class="numb-item">
-        <span class="ni-big">80<sup>+</sup></span>
-        <span class="ni-lbl" data-i18n="nums.n4">Student Nationalities</span>
-        <span class="ni-bar" style="width:80%"></span>
-      </div>
-      <div class="numb-item">
-        <span class="ni-big">NPS&nbsp;46</span>
-        <span class="ni-lbl" data-i18n="nums.n5">Parent Satisfaction Score</span>
-        <span class="ni-bar" style="width:75%"></span>
-      </div>
-      <div class="numb-item">
-        <span class="ni-big">100<sup>%</sup></span>
-        <span class="ni-lbl" data-i18n="nums.n6">University Acceptance</span>
-        <span class="ni-bar" style="width:100%"></span>
-      </div>
-    </div>
+<div class="numbers-grid">
+  <div class="numb-item">
+    <span class="ni-big" data-target="4000">4,000<sup>+</sup></span>
+    <span class="ni-lbl" data-i18n="nums.n1">Students Enrolled</span>
+    <span class="ni-bar" style="width:85%"></span>
+  </div>
+  <div class="numb-item">
+    <span class="ni-big">50</span>
+    <span class="ni-lbl" data-i18n="nums.n2">Years of Excellence</span>
+    <span class="ni-bar" style="width:100%"></span>
+  </div>
+  <div class="numb-item">
+    <span class="ni-big">200,000<sup>+</sup></span>
+    <span class="ni-lbl" data-i18n="nums.n3">Alumni Worldwide</span>
+    <span class="ni-bar" style="width:100%"></span>
+  </div>
+  <div class="numb-item">
+    <span class="ni-big">80<sup>+</sup></span>
+    <span class="ni-lbl" data-i18n="nums.n4">Student Nationalities</span>
+    <span class="ni-bar" style="width:80%"></span>
+  </div>
+  <div class="numb-item">
+    <span class="ni-big">NPS&nbsp;46</span>
+    <span class="ni-lbl" data-i18n="nums.n5">Parent Satisfaction Score</span>
+    <span class="ni-bar" style="width:75%"></span>
+  </div>
+  <div class="numb-item">
+    <span class="ni-big">100<sup>%</sup></span>
+    <span class="ni-lbl" data-i18n="nums.n6">University Acceptance</span>
+    <span class="ni-bar" style="width:100%"></span>
+  </div>
+</div>
+```
 
   </div>
 </section>
 
-
 <!-- ================================================================
   EXPLORE PANELS — WAB-edu 4-panel dark grid
 ================================================================ -->
+
 <section class="section-explore" id="explore">
   <div class="explore-header">
     <div>
@@ -635,61 +660,63 @@ function dismissIntro() {
 
   <div class="explore-panels">
 
-    <!-- Panel 1 -->
-    <a href="curriculum.html" class="ep-panel">
-      <div class="ep-bg" style="background-image:url('images/aus-classroom2.jpg')"></div>
-      <div class="ep-overlay"></div>
-      <div class="ep-body">
-        <span class="ep-tag" data-i18n="exp.p1.tag">Curriculum</span>
-        <h3 class="ep-title" data-i18n="exp.p1.title">British Pathway<br>FS2 → Year 13</h3>
-        <p class="ep-desc" data-i18n="exp.p1.desc">Cambridge IGCSE and A-Levels — a complete educational journey from age 4 to 18.</p>
-        <span class="ep-arrow" data-i18n="exp.p1.arrow">Explore →</span>
-      </div>
-    </a>
+```
+<!-- Panel 1 -->
+<a href="curriculum.html" class="ep-panel">
+  <div class="ep-bg" style="background-image:url('images/aus-classroom2.jpg')"></div>
+  <div class="ep-overlay"></div>
+  <div class="ep-body">
+    <span class="ep-tag" data-i18n="exp.p1.tag">Curriculum</span>
+    <h3 class="ep-title" data-i18n="exp.p1.title">British Pathway<br>FS2 → Year 13</h3>
+    <p class="ep-desc" data-i18n="exp.p1.desc">Cambridge IGCSE and A-Levels — a complete educational journey from age 4 to 18.</p>
+    <span class="ep-arrow" data-i18n="exp.p1.arrow">Explore →</span>
+  </div>
+</a>
 
-    <!-- Panel 2 -->
-    <a href="admissions.html" class="ep-panel">
-      <div class="ep-bg" style="background-image:url('images/aus-lego.jpg')"></div>
-      <div class="ep-overlay"></div>
-      <div class="ep-body">
-        <span class="ep-tag" data-i18n="exp.p2.tag">Admissions</span>
-        <h3 class="ep-title" data-i18n="exp.p2.title">Join the AUS<br>Family</h3>
-        <p class="ep-desc" data-i18n="exp.p2.desc">Open year-round. Fees from AED 8,462 to AED 13,122/year with step-by-step enrolment support.</p>
-        <span class="ep-arrow" data-i18n="exp.p2.arrow">Apply Now →</span>
-      </div>
-    </a>
+<!-- Panel 2 -->
+<a href="admissions.html" class="ep-panel">
+  <div class="ep-bg" style="background-image:url('images/aus-lego.jpg')"></div>
+  <div class="ep-overlay"></div>
+  <div class="ep-body">
+    <span class="ep-tag" data-i18n="exp.p2.tag">Admissions</span>
+    <h3 class="ep-title" data-i18n="exp.p2.title">Join the AUS<br>Family</h3>
+    <p class="ep-desc" data-i18n="exp.p2.desc">Open year-round. Fees from AED 8,462 to AED 13,122/year with step-by-step enrolment support.</p>
+    <span class="ep-arrow" data-i18n="exp.p2.arrow">Apply Now →</span>
+  </div>
+</a>
 
-    <!-- Panel 3 -->
-    <a href="results.html" class="ep-panel">
-      <div class="ep-bg" style="background-image:url('images/aus-oasis.jpg')"></div>
-      <div class="ep-overlay"></div>
-      <div class="ep-body">
-        <span class="ep-tag" data-i18n="exp.p3.tag">Academic Results</span>
-        <h3 class="ep-title" data-i18n="exp.p3.title">Results That<br>Open Doors</h3>
-        <p class="ep-desc" data-i18n="exp.p3.desc">Record-breaking A-Level results. Graduates at universities across the UK, Canada and Australia.</p>
-        <span class="ep-arrow" data-i18n="exp.p3.arrow">View Results →</span>
-      </div>
-    </a>
+<!-- Panel 3 -->
+<a href="results.html" class="ep-panel">
+  <div class="ep-bg" style="background-image:url('images/aus-oasis.jpg')"></div>
+  <div class="ep-overlay"></div>
+  <div class="ep-body">
+    <span class="ep-tag" data-i18n="exp.p3.tag">Academic Results</span>
+    <h3 class="ep-title" data-i18n="exp.p3.title">Results That<br>Open Doors</h3>
+    <p class="ep-desc" data-i18n="exp.p3.desc">Record-breaking A-Level results. Graduates at universities across the UK, Canada and Australia.</p>
+    <span class="ep-arrow" data-i18n="exp.p3.arrow">View Results →</span>
+  </div>
+</a>
 
-    <!-- Panel 4 -->
-    <a href="virtual-tour.html" class="ep-panel">
-      <div class="ep-bg" style="background-image:url('images/aus-field.jpg')"></div>
-      <div class="ep-overlay"></div>
-      <div class="ep-body">
-        <span class="ep-tag" data-i18n="exp.p4.tag">Virtual Tour</span>
-        <h3 class="ep-title" data-i18n="exp.p4.title">Experience Life<br>at AUS</h3>
-        <p class="ep-desc" data-i18n="exp.p4.desc">Labs, sports courts, Taher Hall, robotics studio — explore our campus virtually.</p>
-        <span class="ep-arrow" data-i18n="exp.p4.arrow">Take a Tour →</span>
-      </div>
-    </a>
+<!-- Panel 4 -->
+<a href="virtual-tour.html" class="ep-panel">
+  <div class="ep-bg" style="background-image:url('images/aus-field.jpg')"></div>
+  <div class="ep-overlay"></div>
+  <div class="ep-body">
+    <span class="ep-tag" data-i18n="exp.p4.tag">Virtual Tour</span>
+    <h3 class="ep-title" data-i18n="exp.p4.title">Experience Life<br>at AUS</h3>
+    <p class="ep-desc" data-i18n="exp.p4.desc">Labs, sports courts, Taher Hall, robotics studio — explore our campus virtually.</p>
+    <span class="ep-arrow" data-i18n="exp.p4.arrow">Take a Tour →</span>
+  </div>
+</a>
+```
 
   </div>
 </section>
 
-
 <!-- ================================================================
   VIDEO SECTION — embedded YouTube / promo
 ================================================================ -->
+
 <section class="section-video">
   <div class="video-inner">
     <div class="video-text">
@@ -701,50 +728,53 @@ function dismissIntro() {
     <!-- ── PHOTO SLIDESHOW ── -->
     <div class="aus-slideshow" id="ausSlideshow">
 
-      <!-- Slides — using <img> so the full photo shows with no crop -->
-      <div class="aus-slide active"><img src="images/aus-classroom2.jpg" alt="Our Classrooms"><span class="aus-slide-cap" data-i18n="slide.cap.classroom">Our Classrooms</span></div>
-      <div class="aus-slide"><img src="images/aus-lab1.jpg" alt="Science Laboratories"><span class="aus-slide-cap" data-i18n="slide.cap.lab">Science Laboratories</span></div>
-      <div class="aus-slide"><img src="images/aus-robotics1.jpg" alt="Robotics Studio"><span class="aus-slide-cap" data-i18n="slide.cap.robotics">Robotics Studio</span></div>
-      <div class="aus-slide"><img src="images/aus-stem.jpg" alt="STEM Innovation"><span class="aus-slide-cap" data-i18n="slide.cap.stem">STEM Innovation</span></div>
-      <div class="aus-slide"><img src="images/aus-library1.jpg" alt="Library & Learning Centre"><span class="aus-slide-cap" data-i18n="slide.cap.library">Library & Learning Centre</span></div>
-      <div class="aus-slide"><img src="images/aus-library2.jpg" alt="Learning Resources"><span class="aus-slide-cap" data-i18n="slide.cap.resources">Learning Resources</span></div>
-      <div class="aus-slide"><img src="images/aus-pe1.jpg" alt="Sports & Physical Education"><span class="aus-slide-cap" data-i18n="slide.cap.sports">Sports & Physical Education</span></div>
-      <div class="aus-slide"><img src="images/aus-pe2.jpg" alt="Sports Fields"><span class="aus-slide-cap" data-i18n="slide.cap.fields">Sports Fields</span></div>
-      <div class="aus-slide"><img src="images/aus-field.jpg" alt="School Campus"><span class="aus-slide-cap" data-i18n="slide.cap.campus">School Campus</span></div>
-      <div class="aus-slide"><img src="images/aus-uae-day.jpg" alt="UAE National Day"><span class="aus-slide-cap" data-i18n="slide.cap.uaeday">UAE National Day</span></div>
-      <div class="aus-slide"><img src="images/aus-national-day.jpg" alt="Community Celebrations"><span class="aus-slide-cap" data-i18n="slide.cap.community">Community Celebrations</span></div>
-      <div class="aus-slide"><img src="images/aus-innovators.jpg" alt="Young Innovators"><span class="aus-slide-cap" data-i18n="slide.cap.innovators">Young Innovators</span></div>
-      <div class="aus-slide"><img src="images/aus-chess.jpg" alt="Chess & Strategy Club"><span class="aus-slide-cap" data-i18n="slide.cap.chess">Chess & Strategy Club</span></div>
-      <div class="aus-slide"><img src="images/aus-lego.jpg" alt="Creative Learning"><span class="aus-slide-cap" data-i18n="slide.cap.creative">Creative Learning</span></div>
-      <div class="aus-slide"><img src="images/aus-kids-play.jpg" alt="Early Years Play"><span class="aus-slide-cap" data-i18n="slide.cap.eyplay">Early Years Play</span></div>
-      <div class="aus-slide"><img src="images/aus-garden.jpg" alt="Garden & Outdoor Learning"><span class="aus-slide-cap" data-i18n="slide.cap.garden">Garden & Outdoor Learning</span></div>
-      <div class="aus-slide"><img src="images/aus-students-laptop.jpg" alt="Digital Learning"><span class="aus-slide-cap" data-i18n="slide.cap.digital">Digital Learning</span></div>
-      <div class="aus-slide"><img src="images/aus-welcome.jpg" alt="Welcoming Community"><span class="aus-slide-cap" data-i18n="slide.cap.welcome">Welcoming Community</span></div>
-      <div class="aus-slide"><img src="images/aus-running.jpg" alt="Athletics & Sports"><span class="aus-slide-cap" data-i18n="slide.cap.athletics">Athletics & Sports</span></div>
-      <div class="aus-slide"><img src="images/aus-torch.jpg" alt="School Spirit"><span class="aus-slide-cap" data-i18n="slide.cap.spirit">School Spirit</span></div>
-      <div class="aus-slide"><img src="images/aus-innovators2.jpg" alt="Young Innovators — Science Exhibition"><span class="aus-slide-cap" data-i18n="slide.cap.sciexpo">Science Exhibition</span></div>
-      <div class="aus-slide"><img src="images/aus-science-fair.jpg" alt="Science Fair"><span class="aus-slide-cap" data-i18n="slide.cap.sciencefair">Science Fair</span></div>
-      <div class="aus-slide"><img src="images/aus-uae-flag.jpg" alt="UAE National Pride"><span class="aus-slide-cap" data-i18n="slide.cap.uaepride">UAE National Pride</span></div>
-      <div class="aus-slide"><img src="images/aus-bumblebee2.jpg" alt="School Events"><span class="aus-slide-cap" data-i18n="slide.cap.events">School Events</span></div>
+```
+  <!-- Slides — using <img> so the full photo shows with no crop -->
+  <div class="aus-slide active"><img src="images/aus-classroom2.jpg" alt="Our Classrooms"><span class="aus-slide-cap" data-i18n="slide.cap.classroom">Our Classrooms</span></div>
+  <div class="aus-slide"><img src="images/aus-lab1.jpg" alt="Science Laboratories"><span class="aus-slide-cap" data-i18n="slide.cap.lab">Science Laboratories</span></div>
+  <div class="aus-slide"><img src="images/aus-robotics1.jpg" alt="Robotics Studio"><span class="aus-slide-cap" data-i18n="slide.cap.robotics">Robotics Studio</span></div>
+  <div class="aus-slide"><img src="images/aus-stem.jpg" alt="STEM Innovation"><span class="aus-slide-cap" data-i18n="slide.cap.stem">STEM Innovation</span></div>
+  <div class="aus-slide"><img src="images/aus-library1.jpg" alt="Library & Learning Centre"><span class="aus-slide-cap" data-i18n="slide.cap.library">Library & Learning Centre</span></div>
+  <div class="aus-slide"><img src="images/aus-library2.jpg" alt="Learning Resources"><span class="aus-slide-cap" data-i18n="slide.cap.resources">Learning Resources</span></div>
+  <div class="aus-slide"><img src="images/aus-pe1.jpg" alt="Sports & Physical Education"><span class="aus-slide-cap" data-i18n="slide.cap.sports">Sports & Physical Education</span></div>
+  <div class="aus-slide"><img src="images/aus-pe2.jpg" alt="Sports Fields"><span class="aus-slide-cap" data-i18n="slide.cap.fields">Sports Fields</span></div>
+  <div class="aus-slide"><img src="images/aus-field.jpg" alt="School Campus"><span class="aus-slide-cap" data-i18n="slide.cap.campus">School Campus</span></div>
+  <div class="aus-slide"><img src="images/aus-uae-day.jpg" alt="UAE National Day"><span class="aus-slide-cap" data-i18n="slide.cap.uaeday">UAE National Day</span></div>
+  <div class="aus-slide"><img src="images/aus-national-day.jpg" alt="Community Celebrations"><span class="aus-slide-cap" data-i18n="slide.cap.community">Community Celebrations</span></div>
+  <div class="aus-slide"><img src="images/aus-innovators.jpg" alt="Young Innovators"><span class="aus-slide-cap" data-i18n="slide.cap.innovators">Young Innovators</span></div>
+  <div class="aus-slide"><img src="images/aus-chess.jpg" alt="Chess & Strategy Club"><span class="aus-slide-cap" data-i18n="slide.cap.chess">Chess & Strategy Club</span></div>
+  <div class="aus-slide"><img src="images/aus-lego.jpg" alt="Creative Learning"><span class="aus-slide-cap" data-i18n="slide.cap.creative">Creative Learning</span></div>
+  <div class="aus-slide"><img src="images/aus-kids-play.jpg" alt="Early Years Play"><span class="aus-slide-cap" data-i18n="slide.cap.eyplay">Early Years Play</span></div>
+  <div class="aus-slide"><img src="images/aus-garden.jpg" alt="Garden & Outdoor Learning"><span class="aus-slide-cap" data-i18n="slide.cap.garden">Garden & Outdoor Learning</span></div>
+  <div class="aus-slide"><img src="images/aus-students-laptop.jpg" alt="Digital Learning"><span class="aus-slide-cap" data-i18n="slide.cap.digital">Digital Learning</span></div>
+  <div class="aus-slide"><img src="images/aus-welcome.jpg" alt="Welcoming Community"><span class="aus-slide-cap" data-i18n="slide.cap.welcome">Welcoming Community</span></div>
+  <div class="aus-slide"><img src="images/aus-running.jpg" alt="Athletics & Sports"><span class="aus-slide-cap" data-i18n="slide.cap.athletics">Athletics & Sports</span></div>
+  <div class="aus-slide"><img src="images/aus-torch.jpg" alt="School Spirit"><span class="aus-slide-cap" data-i18n="slide.cap.spirit">School Spirit</span></div>
+  <div class="aus-slide"><img src="images/aus-innovators2.jpg" alt="Young Innovators — Science Exhibition"><span class="aus-slide-cap" data-i18n="slide.cap.sciexpo">Science Exhibition</span></div>
+  <div class="aus-slide"><img src="images/aus-science-fair.jpg" alt="Science Fair"><span class="aus-slide-cap" data-i18n="slide.cap.sciencefair">Science Fair</span></div>
+  <div class="aus-slide"><img src="images/aus-uae-flag.jpg" alt="UAE National Pride"><span class="aus-slide-cap" data-i18n="slide.cap.uaepride">UAE National Pride</span></div>
+  <div class="aus-slide"><img src="images/aus-bumblebee2.jpg" alt="School Events"><span class="aus-slide-cap" data-i18n="slide.cap.events">School Events</span></div>
 
-      <!-- Counter badge -->
-      <div class="aus-slide-counter"><span id="ssCurrent">1</span> / 24</div>
+  <!-- Counter badge -->
+  <div class="aus-slide-counter"><span id="ssCurrent">1</span> / 24</div>
 
-      <!-- Prev / Next -->
-      <button class="aus-ss-btn aus-ss-prev" onclick="ausSSMove(-1)" aria-label="Previous photo">&#8249;</button>
-      <button class="aus-ss-btn aus-ss-next" onclick="ausSSMove(1)" aria-label="Next photo">&#8250;</button>
+  <!-- Prev / Next -->
+  <button class="aus-ss-btn aus-ss-prev" onclick="ausSSMove(-1)" aria-label="Previous photo">&#8249;</button>
+  <button class="aus-ss-btn aus-ss-next" onclick="ausSSMove(1)" aria-label="Next photo">&#8250;</button>
 
-      <!-- Dot nav -->
-      <div class="aus-ss-dots" id="ausSSDots"></div>
+  <!-- Dot nav -->
+  <div class="aus-ss-dots" id="ausSSDots"></div>
 
-    </div>
+</div>
+```
+
   </div>
 </section>
-
 
 <!-- ================================================================
   TESTIMONIALS — clean serif cards
 ================================================================ -->
+
 <section class="section-testimonials" id="testimonials">
   <div class="test-header">
     <div>
@@ -764,67 +794,70 @@ function dismissIntro() {
   <div class="test-overflow">
     <div class="test-track" id="testTrack">
 
-      <div class="tcard">
-        <div class="tcard-stars">★★★★★</div>
-        <p class="tcard-quote" data-i18n="test.q1">"Arab Unity School transformed my child's learning experience. The teachers inspire genuine growth and the curriculum truly prepares students for the real world."</p>
-        <div class="tcard-author">
-          <div class="tcard-av" style="background:#1e3a5c;">S</div>
-          <div>
-            <strong>Sarah Al-Mansouri</strong>
-            <span data-i18n="test.a1">Parent of Year 8 student</span>
-          </div>
-        </div>
+```
+  <div class="tcard">
+    <div class="tcard-stars">★★★★★</div>
+    <p class="tcard-quote" data-i18n="test.q1">"Arab Unity School transformed my child's learning experience. The teachers inspire genuine growth and the curriculum truly prepares students for the real world."</p>
+    <div class="tcard-author">
+      <div class="tcard-av" style="background:#1e3a5c;">S</div>
+      <div>
+        <strong>Sarah Al-Mansouri</strong>
+        <span data-i18n="test.a1">Parent of Year 8 student</span>
       </div>
-
-      <div class="tcard">
-        <div class="tcard-stars">★★★★★</div>
-        <p class="tcard-quote" data-i18n="test.q2">"The teachers genuinely care about results. My son's IGCSE grades were outstanding — and the fees are the most competitive in Dubai for what you receive."</p>
-        <div class="tcard-author">
-          <div class="tcard-av" style="background:#1e5c3a;">A</div>
-          <div>
-            <strong>Ahmed Hassan</strong>
-            <span data-i18n="test.a2">Parent of Year 11 student</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="tcard">
-        <div class="tcard-stars">★★★★★</div>
-        <p class="tcard-quote" data-i18n="test.q3">"After relocating from London, AUS exceeded all our expectations. The quality of teaching, the warmth of community and the values are truly outstanding."</p>
-        <div class="tcard-author">
-          <div class="tcard-av" style="background:#5c3a1e;">J</div>
-          <div>
-            <strong>James &amp; Rebecca Thompson</strong>
-            <span data-i18n="test.a3">Parents, relocated from UK</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="tcard">
-        <div class="tcard-stars">★★★★★</div>
-        <p class="tcard-quote" data-i18n="test.q4">"My children feel safe, happy and genuinely loved at AUS every single day. The school leadership is always accessible and responds with real care."</p>
-        <div class="tcard-author">
-          <div class="tcard-av" style="background:#3a1e5c;">F</div>
-          <div>
-            <strong>Fatima Al-Rashid</strong>
-            <span data-i18n="test.a4">Parent of three AUS students</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="tcard">
-        <div class="tcard-stars">★★★★★</div>
-        <p class="tcard-quote" data-i18n="test.q5">"My son completed A-Levels at AUS and secured his place at the University of Manchester. The Sixth Form team invested in him every step of the way."</p>
-        <div class="tcard-author">
-          <div class="tcard-av" style="background:#5c1e3a;">P</div>
-          <div>
-            <strong>Priya Sharma</strong>
-            <span data-i18n="test.a5">Parent of AUS alumnus</span>
-          </div>
-        </div>
-      </div>
-
     </div>
+  </div>
+
+  <div class="tcard">
+    <div class="tcard-stars">★★★★★</div>
+    <p class="tcard-quote" data-i18n="test.q2">"The teachers genuinely care about results. My son's IGCSE grades were outstanding — and the fees are the most competitive in Dubai for what you receive."</p>
+    <div class="tcard-author">
+      <div class="tcard-av" style="background:#1e5c3a;">A</div>
+      <div>
+        <strong>Ahmed Hassan</strong>
+        <span data-i18n="test.a2">Parent of Year 11 student</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="tcard">
+    <div class="tcard-stars">★★★★★</div>
+    <p class="tcard-quote" data-i18n="test.q3">"After relocating from London, AUS exceeded all our expectations. The quality of teaching, the warmth of community and the values are truly outstanding."</p>
+    <div class="tcard-author">
+      <div class="tcard-av" style="background:#5c3a1e;">J</div>
+      <div>
+        <strong>James &amp; Rebecca Thompson</strong>
+        <span data-i18n="test.a3">Parents, relocated from UK</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="tcard">
+    <div class="tcard-stars">★★★★★</div>
+    <p class="tcard-quote" data-i18n="test.q4">"My children feel safe, happy and genuinely loved at AUS every single day. The school leadership is always accessible and responds with real care."</p>
+    <div class="tcard-author">
+      <div class="tcard-av" style="background:#3a1e5c;">F</div>
+      <div>
+        <strong>Fatima Al-Rashid</strong>
+        <span data-i18n="test.a4">Parent of three AUS students</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="tcard">
+    <div class="tcard-stars">★★★★★</div>
+    <p class="tcard-quote" data-i18n="test.q5">"My son completed A-Levels at AUS and secured his place at the University of Manchester. The Sixth Form team invested in him every step of the way."</p>
+    <div class="tcard-author">
+      <div class="tcard-av" style="background:#5c1e3a;">P</div>
+      <div>
+        <strong>Priya Sharma</strong>
+        <span data-i18n="test.a5">Parent of AUS alumnus</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+```
+
   </div>
 
   <div class="test-footer">
@@ -832,10 +865,10 @@ function dismissIntro() {
   </div>
 </section>
 
-
 <!-- ================================================================
   CLOSING CTA — full-photo overlay
 ================================================================ -->
+
 <section class="section-cta">
   <div class="cta-bg" style="background-image:url('images/aus-national-day.jpg')"></div>
   <div class="cta-overlay"></div>
@@ -857,12 +890,12 @@ function dismissIntro() {
   </div>
 </section>
 
-
 <!-- ================================================================
   SCRIPTS
 ================================================================ -->
 
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
@@ -875,9 +908,10 @@ function dismissIntro() {
   }
 </script>
 
-  
 <script src="js/lang.js?v=12"></script>
+
 <script src="js/nav.js?v=23"></script>
+
 <script>
 
 /* ─── Hero Slideshow ───────────────────────────────────────── */
@@ -980,5 +1014,6 @@ document.querySelectorAll('.reveal').forEach(function(el) {
 });
 
 </script>
+
 </body>
 </html>
